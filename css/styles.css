@@ -48,16 +48,31 @@ a {
 /*button*/
 
 button {
+  cursor: pointer;
   font-family: inherit;
 }
 .button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
+  font-family: Roboto;
+  font-style: normal;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
-
+.button.primary {
+  color: var(--primary-white-color);
+  background-color: var(--third-text-color);
+}
+.buttons .button:hover,
+.buttons .button:focus {
+  color: var(--header-color);
+  background-color: var(--third-text-color);
+}
 /*Site nav*/
-
+.site-nav .link.current {
+  color: var(--third-text-color);
+}
 .site-nav .link {
   color: var(--primary-text-color);
   font-weight: 500;
