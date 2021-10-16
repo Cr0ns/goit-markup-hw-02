@@ -10,7 +10,7 @@
 body {
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
 
@@ -64,8 +64,8 @@ button {
   color: var(--primary-white-color);
   background-color: var(--third-text-color);
 }
-.buttons .button:hover,
-.buttons .button:focus {
+.filter .button:hover,
+.filter .button:focus {
   color: var(--header-color);
   background-color: var(--third-text-color);
 }
@@ -160,7 +160,6 @@ button {
 .address-contact {
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -175,7 +174,6 @@ button {
   color: rgba(255, 255, 255, 0.6);
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
